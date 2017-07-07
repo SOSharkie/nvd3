@@ -222,7 +222,7 @@ nv.models.multiBarHorizontalChart = function() {
                     .tickSize( -availableHeight, 0);
 
                 g.select('.nv-y.nv-axis')
-                    .attr('transform', 'translate(0,' + availableHeight + ')');
+                    .attr('transform', 'translate(0, 0)');
                 g.select('.nv-y.nv-axis').call(yAxis);
             }
 
